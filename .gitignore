@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea/
+/src/JavaStart/Calc.java
+/src/JavaStart/Emiratura.java
+/src/JavaStart/HomeWork.java
+/src/JavaStart/Integer.java
+/src/JavaStart/Math.java
+.gitignore
