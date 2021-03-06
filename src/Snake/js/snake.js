@@ -10,7 +10,7 @@ var table = document.getElementById("box");
         fig1.fillRect(120,30,70,70);
         fig1.fillStyle =  "rgb(0,120,150)";
         fig1.fillRect(180,90,40,40);
-        fig1.clearRect(200,95,50,50)
+        fig1.clearRect(0,0,400,200)
 function screentext() {
 console.log("Hej");
 }
