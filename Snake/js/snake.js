@@ -15,7 +15,22 @@ var greedSizeElement = 20;
 var greedWidth = table.width /greedSizeElement;
 var greedHight = table.height / greedSizeElement;
 
+var startX = 1;
+var startY = 0;
 
+var x = 10;
+var y = 10;
+
+var snake = [
+{x:2,y:0},
+{x:1,y:0},
+{x:0,y:0}
+];
+
+function apple() {
+var appleX = Math.floor(Math.random() * greedWidth);
+var appleY = Math.floor(Math.random() * greedHeight);
+}
 
 function keyLog(event) {
 console.log(event);
